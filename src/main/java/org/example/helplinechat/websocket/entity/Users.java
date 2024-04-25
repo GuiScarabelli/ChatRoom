@@ -20,6 +20,7 @@ public class Users {
     private String id;
     private String nickName;
     private String fullName;
+    @Enumerated(EnumType.STRING)
     private Status status; // Aprendi Enum e é mt foda, tmj mac do passado
 
 }
